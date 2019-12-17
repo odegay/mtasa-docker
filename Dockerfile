@@ -1,5 +1,7 @@
 FROM ubuntu:latest
 
+LABEL maintainer="kevin@ciber.tech"
+
 RUN apt-get update && apt-get upgrade -y
 
 RUN dpkg --add-architecture i386
